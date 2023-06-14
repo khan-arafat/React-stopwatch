@@ -138,7 +138,7 @@ function App() {
         {modalShow && <div className='modal-box'>{
           lapShow.map((lap, idx)=>{
             return (<div className='lap-each' key={idx}>
-              <div>{`Lap${idx+1}:`}</div><div style={{marginLeft: '175px'}}>{formatter(lap.minutes)+':'+formatter(lap.seconds)+':'+formatter(lap.centiSec)}<hr/></div>
+              <div>{`Lap${idx+1}:`}</div><div className='rec-margin'>{formatter(lap.minutes)+':'+formatter(lap.seconds)+':'+formatter(lap.centiSec)}<hr/></div>
             </div>)
           })
           
