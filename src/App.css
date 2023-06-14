@@ -74,3 +74,86 @@
   margin-top: 50px;
   cursor: pointer;
  }
+ .rec-margin {
+  margin-left: '175px'
+ }
+@media (max-width:1000px){
+  .title-app {
+    font-size: 9vw;
+    line-height: 2;
+  }
+  .lap-timer {
+  text-align: right;
+  font-size: 6vw;
+  margin-right: 30px;
+ }
+ .lap-locator {
+  text-align: right;
+  margin-right: 30px;
+  color: white;
+  font-size: 30px;
+ }
+ .time-timer {
+  font-size: 16vw;
+ }
+ .modal-box {
+  width: 250px;
+  max-height: 160px;
+  bottom: -30px;
+  font-size: 15px;
+ }
+ .digital {
+  top: 8px;
+  font-size: 16vw;
+ }
+ .rec-margin {
+  margin-left: 120px;
+ }
+ .btn-box button {
+  margin-top: 20px;
+  width: 100px;
+ }
+}
+
+ @media (min-width:480px) and (max-width:768px) {
+  .title-app {
+    font-size: 8vw;
+    line-height: 2;
+  }
+  .lap-timer {
+  text-align: right;
+  font-size: 6vw;
+  margin-right: 30px;
+ }
+ .lap-locator {
+  text-align: right;
+  margin-right: 30px;
+  color: white;
+  font-size: 25px;
+ }
+ .time-timer {
+  font-size: 9vw;
+ }
+ .modal-box {
+  width: 150px;
+  max-height: 160px;
+  bottom: -80px;
+  font-size: 15px;
+ }
+ .digital {
+  top: 6px;
+ }
+ .rec-margin {
+  margin-left: 40px;
+ }
+ .btn-box button {
+  margin-top: 20px;
+  width: 100px;
+ }
+ }
+
+ @media (min-width:480) {
+  .modal-box {
+    width: 50px;
+  }
+ }
