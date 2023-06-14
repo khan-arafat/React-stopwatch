@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.App {
+  text-align: center;
+  background: url('../public/background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+ .title-app {
+    font-size: 6vw;
+    line-height: 1.2;
+ }
+
+ .lap-timer {
+  text-align: right;
+  font-size: 3vw;
+  margin-right: 50px;
+ }
+ .lap-locator {
+  text-align: right;
+  margin-right: 5px;
+  color: white;
+  margin-right: 50px;
+ }
+ .time-timer {
+  font-size: 7vw;
+  color: aliceblue;
+ }
+ .digital {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 8vw;
+  position: relative;
+  top: 10px;
+ }
+ .btn-box{
+  display: inline-flex;
+  gap: 20px;
+ }
+ .btn-box button {
+  background: linear-gradient(45deg, red, yellow);
+  border: none;
+  width: 80px;
+  height: 30px;
+  border-radius: 8px;
+  color: black;
+  border: 1px solid black;
+  font-weight: bold;
+ }
+
+ .modal-box {
+  max-height: 300px;
+  overflow-y: scroll;
+  background-color: rgba(240, 230, 230, 0.5);
+  width: 300px;
+  position: relative;
+  bottom: 100px;
+  left: 20px;
+
+ }
+ .modal-box .lap-each {
+  display: flex;
+  font-size: 18px;
+  margin-top: 10px;
+ }
+ .reset-btn {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  width: 60px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-top: 50px;
+  cursor: pointer;
+ }
